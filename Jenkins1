@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo 1
+                echo "In Build stage Test" 
             }
         }
 		stage('Package') { 
