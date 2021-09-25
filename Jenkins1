@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo "In Build stage changes" 
+                echo "In Build stage" 
             }
         }
         stage('Test') { 
             steps {
-                echo "In Build stage Test" 
+                echo "In Test stage"
             }
         }
         stage('Deploy') { 
             steps {
-                echo "In Build stage Test" 
+                echo "In Deploye stage" 
             }
         }
 		stage('Package') { 
@@ -22,4 +22,4 @@ pipeline {
             }
         }
     }
-} 
+}
